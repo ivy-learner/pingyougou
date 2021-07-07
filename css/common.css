@@ -19,22 +19,18 @@
   background-color: #666;
   margin:9px 12px 0; 
 }
-@font-face{
-  /* 1.这个名称要 注意icomoon*/
+@font-face {
   font-family: 'icomoon';
-  /* 2.一定要注意路径的问题 */
-  src: url('../fonts/icomoon.eot?7kkyc2');
-  /* src:url(../fonts/) */
-  src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype')
-   
-     url('../fonts/icomoon.ttf?7kkyc2')format('truetype'),
-     url('../fonts/icomoon.woff?7kkyc2')format('woff'),
-     url('../fonts/icomoon.svg?7kkyc2#icomoon')format('svg');
-   font-weight: normal;
-   font-style: normal;
+  src:  url('../fonts/icomoon.eot?7kkyc2');
+  src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 .icomoon{
-  font-family: 'icomoon';
+  font-family: "icomoon";
 }
 /* 顶部快捷导航 */
 .shortcut{
