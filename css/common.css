@@ -31,6 +31,8 @@
 }
 .icomoon{
   font-family: "icomoon";
+  font-size: 10px;
+  font-weight: bold;
 }
 /* 顶部快捷导航 */
 .shortcut{
@@ -40,4 +42,188 @@
 }
 .shortcut li{
   float:left;
+}
+/* head区域 */
+.header{
+  position:relative;
+  height: 102px;
+  background-color: #fff;
+}
+.logo{
+  position:absolute;
+  top:25px;
+  left: 0;
+  width: 175px;
+  height: 56px;
+  background-color: purple;
+}
+.logo a{
+  display: block;
+  /* overflow: hidden; */
+  width: 300px;
+  height: 56px;
+  background: url(../img/1625713662\(1\).png) no-repeat ;
+  /* text-indent: -555px; */
+  font-size: 0;
+}
+.search{
+  position:absolute;
+  top: 25px;
+  left:348px;
+}
+.text{
+  float: left;
+  width: 445px;
+  height: 32px;
+  border:2px solid #b1191a;
+  padding-left: 10px;
+  color:#ccc;
+}
+.btn{
+  float: left;
+  width: 82px;
+  height: 36px;
+  background-color: #b1191a;
+  border:0;
+  font-size: 16px;
+  color:#fff;
+}
+.hotwords{
+  position: absolute;
+  top:65px;
+  left:348px;
+  color:#ccc;
+}
+.hotwords a{
+  margin: 0 12px;
+}
+.shopcar{
+  position:absolute;
+  top:25px;
+  right: 64px;
+  width: 138px;
+  height: 34px;
+  border:1px solid #dfdfdf;
+  background-color: #f7f7f7;
+  line-height: 34px;
+  text-align: center;
+}
+.car{
+  font-family: 'icomoon';
+  margin-right:10px;
+color: #da5555;
+}
+.arrow{
+  font-family: 'icomoon';
+  margin-left: 5px;
+}
+.count{
+  position: absolute;
+  top:-5px;
+  left: 100px;
+  /* 应该是左侧对齐，文字才能向右显示 */
+  background-color: #e60012;
+  padding: 0 3px;
+  line-height: 14px;
+  color:#fff;
+  border-radius:7px 7px 7px 0;
+}
+.nav{
+  height: 45px;
+  border-bottom: 2px solid #b1191a;
+}
+.dropdown{
+  float: left;
+  width: 209px;
+  height: 45px;
+  background-color: pink;
+}
+.dropdown .dt{
+  height: 100%;
+  background-color: #b1191a;
+  font-size:16px;
+  color:#fff;
+  text-align: center;
+  line-height: 45px;
+}
+.dropdown .dd{
+ height: 465px;
+ background-color: #c81623;
+ margin-top: 2px;
+}
+.menu_item{
+  height: 31px;
+  line-height: 31px;
+  margin-left: 1px;
+  padding-left: 0 10px;
+}
+.menu_item:hover{
+  background-color: #fff;
+  /* color:#b1191a; */
+}
+/* 鼠标经过li，里面的a 变颜色 */
+.menu_item:hover a {
+  color:#c81623;
+}
+.menu_item a{
+  font-size: 14px;
+  color:#fff;
+}
+.menu_item i{
+  float:right;
+  font-family: 'icomoon';
+  font-size: 18px;
+  color:#fff;
+}
+.navitems{
+  margin-left: 10px;
+}
+.navitems li{
+  float: left;
+}
+.navitems li a:hover{
+  color:#c81623;
+}
+.navitems li a{
+  display: block;
+  height: 45px;
+  padding:0 25px;
+  line-height: 45px;
+  font-size: 16px;;
+}
+
+/* 底部footer 样式 */
+.footer{
+  height: 386px;
+  background-color: #f5f5f5;
+  padding-top: 30px;
+}
+.mod_service{
+  height: 79px;
+  background: pink;
+  border-bottom: 1px solid #ccc;
+}
+.mod_service li{
+  float: left;
+  width: 240px;
+  height: 79px;
+}
+/* 将四个小li 中的相同样式部分抽取出来 */
+ .mod_service_icon{
+   /* 浮动的盒子可以直接给大小的 不需要转换 */
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 35px;
+} 
+.mod_service_zheng{
+ 
+  background: url(../img/1.png) no-repeat ;
+}
+.mod_service_tit {
+  float:left;
+  margin-left: 5px;
+}
+.mod_service_tit h5{
+  margin-top: 5px;
 }
